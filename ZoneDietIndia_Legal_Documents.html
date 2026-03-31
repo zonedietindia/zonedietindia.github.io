@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Documents — ZoneDiet India</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, serif; background: #f9fbf9; color: #1a1a1a; line-height: 1.8; }
+
+  header {
+    background: #1B5E20;
+    color: white;
+    padding: 32px 24px;
+    text-align: center;
+  }
+  header h1 { font-size: 28px; letter-spacing: 1px; margin-bottom: 6px; }
+  header p { font-size: 14px; opacity: 0.8; }
+
+  nav {
+    background: #2d6a2d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.15);
+    transition: background 0.2s;
+    font-family: sans-serif;
+  }
+  nav a:hover { background: rgba(255,255,255,0.3); }
+
+  .container { max-width: 820px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  .doc-section {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 48px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    border-top: 4px solid #1B5E20;
+  }
+
+  .doc-title {
+    font-size: 24px;
+    color: #1B5E20;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  .doc-date {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 28px;
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-size: 16px;
+    color: #1B5E20;
+    margin: 28px 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+  }
+  p { margin-bottom: 14px; font-size: 15px; }
+  ul { margin: 10px 0 14px 24px; }
+  li { margin-bottom: 8px; font-size: 15px; }
+
+  .highlight-box {
+    background: #f0f7f0;
+    border-left: 4px solid #2d6a2d;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+    font-size: 14px;
+  }
+
+  .contact-box {
+    background: #1B5E20;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  .contact-box a { color: #a5d6a7; }
+
+  footer {
+    text-align: center;
+    padding: 32px;
+    font-size: 12px;
+    color: #999;
+    font-family: sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌿 ZoneDiet India</h1>
+  <p>Legal Documents &amp; Policies — Effective 1 April 2026</p>
+</header>
+
+<nav>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#terms">Terms of Service</a>
+  <a href="#health">Health Disclaimer</a>
+  <a href="#refund">Refund Policy</a>
+</nav>
+
+<div class="container">
+
+  <!-- PRIVACY POLICY -->
+  <div class="doc-section" id="privacy">
+    <div class="doc-title">Privacy Policy</div>
+    <div class="doc-date">Last updated: 1 April 2026 &nbsp;|&nbsp; Effective: 1 April 2026</div>
+
+    <div class="highlight-box">
+      ZoneDiet India is operated by an individual proprietor based in New Delhi, India. We are committed to protecting your personal information and your right to privacy.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect information you provide directly when you create an account or use our services:</p>
+    <ul>
+      <li><strong>Account information:</strong> Full name, email address, password (encrypted)</li>
+      <li><strong>Profile information:</strong> Age, gender, height, weight, activity level, dietary preferences, health goals</li>
+      <li><strong>Usage data:</strong> Meal plans viewed, food items logged, water intake, progress tracking data</li>
+      <li><strong>Payment information:</strong> Subscription status only. We do not store card numbers or payment details — all payments are processed by Razorpay.</li>
+      <li><strong>Device information:</strong> Device type, operating system version, app version, crash logs</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To create and manage your account</li>
+      <li>To generate personalised Zone Diet meal plans based on your profile</li>
+      <li>To send push notifications about your meal schedule and hydration reminders (you may opt out at any time)</li>
+      <li>To improve the app based on usage patterns</li>
+      <li>To respond to your support requests</li>
+      <li>To send subscription-related communications via email</li>
+    </ul>
+
+    <h2>3. Data Storage and Security</h2>
+    <p>Your data is stored securely on Supabase servers located in Mumbai, India (AWS ap-south-1 region). We implement industry-standard security measures including:</p>
+    <ul>
+      <li>Row Level Security (RLS) — your data is accessible only to you</li>
+      <li>Encrypted data transmission (HTTPS/TLS)</li>
+      <li>Secure authentication via email and password</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, trade, or rent your personal information to third parties. We share data only with:</p>
+    <ul>
+      <li><strong>Supabase</strong> — database and authentication provider</li>
+      <li><strong>Razorpay</strong> — payment processing (subject to Razorpay's privacy policy)</li>
+      <li><strong>Firebase/Google</strong> — app analytics and crash reporting</li>
+    </ul>
+
+    <h2>5. Health Data</h2>
+    <p>Health-related information you provide (weight, dietary preferences, health goals) is used solely to personalise your Zone Diet experience. This data is never shared with insurance companies, employers, or any third party.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access your personal data at any time via the app</li>
+      <li>Correct inaccurate data via your profile settings</li>
+      <li>Delete your account and all associated data — email us at hello@zonedietindia.com</li>
+      <li>Opt out of marketing emails at any time</li>
+      <li>Opt out of push notifications via your device settings</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>ZoneDiet India is not intended for users under 18 years of age. We do not knowingly collect personal information from minors. If you believe a minor has provided us with personal information, please contact us immediately.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of significant changes via email or an in-app notification. Continued use of the app after changes constitutes your acceptance of the updated policy.</p>
+
+    <div class="contact-box">
+      <strong>Privacy Questions?</strong><br>
+      Email: <a href="mailto:hello@zonedietindia.com">hello@zonedietindia.com</a><br>
+      Response time: Within 48 hours on business days
+    </div>
+  </div>
+
+  <!-- TERMS OF SERVICE -->
+  <div class="doc-section" id="terms">
+    <div class="doc-title">Terms of Service</div>
+    <div class="doc-date">Last updated: 1 April 2026 &nbsp;|&nbsp; Effective: 1 April 2026</div>
+
+    <div class="highlight-box">
+      By downloading, installing, or using ZoneDiet India, you agree to be bound by these Terms of Service. Please read them carefully before using the app.
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") govern your use of the ZoneDiet India mobile application ("App") operated by ZoneDiet India ("we," "us," or "our"). By using the App, you confirm that you are at least 18 years old and agree to these Terms.</p>
+
+    <h2>2. Description of Service</h2>
+    <p>ZoneDiet India provides an AI-powered Indian meal planning service based on Zone Diet (40:30:30 macronutrient ratio) principles. The App offers:</p>
+    <ul>
+      <li>Personalised Zone Diet meal plans with Indian recipes</li>
+      <li>Macro block tracking and progress monitoring</li>
+      <li>A database of 200+ Indian foods with Zone Diet block calculations</li>
+      <li>Water intake tracking and hydration reminders</li>
+      <li>Weekly progress reports and insights</li>
+    </ul>
+
+    <h2>3. User Accounts</h2>
+    <p>You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately at hello@zonedietindia.com if you suspect any unauthorised access to your account. We are not liable for any loss resulting from unauthorised use of your account.</p>
+
+    <h2>4. Subscriptions and Payments</h2>
+    <p>ZoneDiet India offers the following subscription plans:</p>
+    <ul>
+      <li><strong>Basic Plan:</strong> ₹199/month — personalised meal plans, food tracker, basic recipes</li>
+      <li><strong>Pro Plan:</strong> ₹399/month — everything in Basic + AI nutrition coach, 500+ recipes, priority support</li>
+      <li><strong>Annual Plan:</strong> ₹1,999/year — everything in Pro + annual health report, exclusive festive meal plans</li>
+    </ul>
+    <p>All payments are processed securely by Razorpay. By subscribing, you authorise recurring charges until you cancel. Prices are in Indian Rupees (INR) and inclusive of applicable taxes.</p>
+
+    <h2>5. Cancellation</h2>
+    <p>You may cancel your subscription at any time. Cancellation takes effect at the end of the current billing period. Please refer to our Refund Policy for details on refunds.</p>
+
+    <h2>6. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful purpose</li>
+      <li>Attempt to reverse engineer, decompile, or extract the source code of the App</li>
+      <li>Share your account credentials with others</li>
+      <li>Use automated tools to scrape or extract data from the App</li>
+      <li>Impersonate any person or entity</li>
+    </ul>
+
+    <h2>7. Intellectual Property</h2>
+    <p>All content, features, and functionality of ZoneDiet India — including recipes, meal plans, graphics, logos, and software — are owned by ZoneDiet India and are protected by applicable intellectual property laws. You may not reproduce or distribute any content without our written permission.</p>
+
+    <h2>8. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, ZoneDiet India shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App. Our total liability to you for any claims shall not exceed the amount you paid us in the 3 months preceding the claim.</p>
+
+    <h2>9. Governing Law</h2>
+    <p>These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in New Delhi, India.</p>
+
+    <h2>10. Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms at any time. We will notify you of material changes via email or in-app notification. Continued use after changes constitutes acceptance.</p>
+
+    <div class="contact-box">
+      <strong>Terms Questions?</strong><br>
+      Email: <a href="mailto:hello@zonedietindia.com">hello@zonedietindia.com</a>
+    </div>
+  </div>
+
+  <!-- HEALTH DISCLAIMER -->
+  <div class="doc-section" id="health">
+    <div class="doc-title">Health Disclaimer</div>
+    <div class="doc-date">Last updated: 1 April 2026 &nbsp;|&nbsp; Effective: 1 April 2026</div>
+
+    <div class="highlight-box">
+      ⚠️ Important: Please read this disclaimer carefully before using ZoneDiet India for health or dietary guidance.
+    </div>
+
+    <h2>1. Not Medical Advice</h2>
+    <p>ZoneDiet India is a meal planning and nutrition tracking application. The content, meal plans, nutritional information, and dietary suggestions provided by this App are for <strong>informational and educational purposes only</strong> and do not constitute medical advice, diagnosis, or treatment.</p>
+
+    <h2>2. Consult a Healthcare Professional</h2>
+    <p>Before starting any new diet, nutrition program, or making significant changes to your eating habits, you should consult with a qualified healthcare professional, registered dietitian, or licensed nutritionist — especially if you:</p>
+    <ul>
+      <li>Have or suspect you have any medical condition (diabetes, heart disease, kidney disease, etc.)</li>
+      <li>Are pregnant or breastfeeding</li>
+      <li>Are under 18 years of age</li>
+      <li>Are taking prescription medications</li>
+      <li>Have a history of eating disorders</li>
+      <li>Have food allergies or intolerances</li>
+    </ul>
+
+    <h2>3. Zone Diet Disclaimer</h2>
+    <p>The Zone Diet (40% carbohydrates, 30% protein, 30% fat) is a dietary approach developed by Dr. Barry Sears. ZoneDiet India applies these principles to Indian cuisine. Individual results will vary. This App does not claim to diagnose, treat, cure, or prevent any disease or health condition.</p>
+
+    <h2>4. Nutritional Data Accuracy</h2>
+    <p>Nutritional values in our food database are based on ICMR IFCT 2017 (Indian Food Composition Tables) and other credible sources. However, actual nutritional content may vary based on food preparation methods, regional variations, ingredient quality, and portion sizes. We cannot guarantee the absolute accuracy of all nutritional data.</p>
+
+    <h2>5. Individual Variation</h2>
+    <p>Nutritional needs vary significantly between individuals based on age, gender, health status, activity level, metabolism, and other factors. The meal plans and block calculations provided by this App are general recommendations and may not be suitable for everyone.</p>
+
+    <h2>6. Emergency Situations</h2>
+    <p>If you experience any adverse health effects, including allergic reactions, digestive issues, dizziness, or any other concerning symptoms while following a meal plan from this App, discontinue use immediately and seek medical attention.</p>
+
+    <h2>7. No Doctor-Patient Relationship</h2>
+    <p>Use of ZoneDiet India does not create a doctor-patient, dietitian-client, or any other healthcare professional relationship between you and ZoneDiet India or its operators.</p>
+
+    <div class="contact-box">
+      <strong>Health Concerns?</strong><br>
+      Always consult your doctor first. For App-related queries: <a href="mailto:hello@zonedietindia.com">hello@zonedietindia.com</a>
+    </div>
+  </div>
+
+  <!-- REFUND POLICY -->
+  <div class="doc-section" id="refund">
+    <div class="doc-title">Refund Policy</div>
+    <div class="doc-date">Last updated: 1 April 2026 &nbsp;|&nbsp; Effective: 1 April 2026</div>
+
+    <div class="highlight-box">
+      We want you to be completely satisfied with ZoneDiet India. If you are not happy with your subscription, please review our refund policy below.
+    </div>
+
+    <h2>1. Subscription Refunds</h2>
+    <p>We offer refunds under the following conditions:</p>
+    <ul>
+      <li><strong>7-day money-back guarantee:</strong> If you are not satisfied with your subscription within the first 7 days of your initial purchase, contact us for a full refund — no questions asked.</li>
+      <li><strong>Technical issues:</strong> If the App is non-functional on your device due to technical issues that we are unable to resolve within 5 business days, you are eligible for a pro-rata refund.</li>
+      <li><strong>Duplicate charges:</strong> If you have been charged more than once for the same subscription period, we will refund the duplicate amount immediately.</li>
+    </ul>
+
+    <h2>2. Non-Refundable Situations</h2>
+    <ul>
+      <li>Refund requests made after 7 days of the initial purchase</li>
+      <li>Renewal charges (you will be notified before renewal — cancel before the renewal date to avoid charges)</li>
+      <li>Partial month usage — we do not offer pro-rata refunds for unused days after the 7-day window</li>
+      <li>Dissatisfaction with dietary results — individual results vary and are not grounds for a refund</li>
+    </ul>
+
+    <h2>3. Annual Plan Refunds</h2>
+    <p>For annual subscriptions, the 7-day money-back guarantee applies from the date of purchase. After 7 days, annual plans are non-refundable but you may cancel to prevent the next year's renewal charge.</p>
+
+    <h2>4. How to Request a Refund</h2>
+    <p>To request a refund, email us at hello@zonedietindia.com with:</p>
+    <ul>
+      <li>Your registered email address</li>
+      <li>Your Razorpay payment ID (found in your payment confirmation email)</li>
+      <li>Reason for refund request</li>
+    </ul>
+    <p>We will process eligible refunds within 5-7 business days. Refunds are credited to the original payment method.</p>
+
+    <h2>5. Cancellation</h2>
+    <p>You may cancel your subscription at any time by contacting us at hello@zonedietindia.com. Cancellation stops future charges but does not automatically trigger a refund for the current period.</p>
+
+    <h2>6. Dispute Resolution</h2>
+    <p>If you believe you have been incorrectly charged or your refund request has been wrongly denied, please email us with full details. We are committed to resolving all billing disputes fairly within 10 business days.</p>
+
+    <div class="contact-box">
+      <strong>Refund Requests</strong><br>
+      Email: <a href="mailto:hello@zonedietindia.com">hello@zonedietindia.com</a><br>
+      Subject line: "Refund Request — [Your Email]"<br>
+      Processing time: 5-7 business days
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 ZoneDiet India. All rights reserved.<br>
+  Operated by ZoneDiet India &nbsp;|&nbsp; New Delhi, India &nbsp;|&nbsp; hello@zonedietindia.com
+</footer>
+
+</body>
+</html>
